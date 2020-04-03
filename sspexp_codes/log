@@ -1,0 +1,2 @@
+g++ -g -w -Wall -Wextra -O3  -std=c++11 -fopenmp -I /home/yzengal/icde20/software/sparsehash/include -L /home/yzengal/icde20/software/sparsehash/lib -Isrc -o bin/sspexp_run main.cpp
+./sspexp_codes/bin/sspexp_run -x -d 0 -w 1 -s 1 -m 2 -g ./road/chengdu.road -e ./road/chengdu 
